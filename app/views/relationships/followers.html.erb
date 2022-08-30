@@ -1,2 +1,9 @@
-<h1>Relationships#followers</h1>
-<p>Find me in app/views/relationships/followers.html.erb</p>
+<div class='container px-5 px-sm-0'>
+  <div class='row'>
+    <div class="col-md-12">
+      <h2>Follower Users</h2>
+      <%= render 'follow_list', users: @users %>
+    </div>
+  </div>
+</div>
+
